@@ -1,0 +1,186 @@
+/*****  Main Styles ****/
+
+
+
+body {
+    font-family: "Lato", sans-serif;
+    color: #676858;
+    font-weight: 300;
+}
+
+.container {
+    border-bottom: solid 1px #ffa500;
+    padding-bottom: 50px;
+}
+
+.text-muted {
+    color: #bcbbbb;
+}
+
+.text-thin {
+    font-weight: 100;
+}
+
+.title-super {
+    font-size: 60px;
+    color: #f8981c;
+}
+
+.title-logo {
+    margin-top: 35px;
+}
+
+.main-image {
+
+    width: 100%;
+    
+}
+
+
+
+
+
+/******  Navigation  ******/
+
+.menu {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.menu li {
+    font-size: 1.1em;
+    color: #ffa500;
+    line-height: 40px;
+    border-bottom: 1px solid #ffa500;
+
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ffa500;
+    display: block;
+}
+
+.menu a:hover {
+    background-color: #ffa500;
+    color: #fff;
+    transition: 1s;
+}
+
+.img-modal:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.menu a span {
+    display: none;
+
+}
+
+.menu a:hover span {
+    display: block;
+    text-align: left;
+    padding: 0;
+    width: 8em;
+    height: 4em;
+    background-color: #fff;
+    color: #333;
+    line-height: 1.5em;
+
+}
+
+.menu img {
+    
+    float: left;
+    margin: 0.25em 1em 0.5em 0;
+    width: 100%;
+    border: 1px solid #333;
+}
+
+
+
+/*** Buttons ***/
+
+
+.button:hover {
+    text-decoration: none;
+    color: #f8981c;
+    background-color: #fff;
+}
+
+.button {
+    text-decoration: none;
+    background-color: #f8981c;
+    color: #fff;
+    padding: 3px 10px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+
+/****** FOOTER *****/
+
+.copyright {
+    text-align: center;
+    
+}
+
+.footer ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    margin: 50px;
+}
+
+.footer li {
+    display: inline-block;
+    padding-right: 50px;
+}
+
+.fa:hover {
+    text-shadow: 3px 3px 3px #aaa;
+    opacity: .5;
+}
+
+.fa-twitter {
+    color: #4099ff;
+}
+
+.fa-google-plus {
+    color: #d34836;
+}
+
+.fa-facebook {
+    color: #3b5998;
+}
+
+
+/*****  Media Queries *****/
+
+
+@media screen and (min-width: 650px) {
+
+    .menu {
+        float: right;
+    }
+
+    .menu li {
+        color: #ffa500;
+        width: 120px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 1.3em;
+        float: left;
+        border-bottom: none;
+        
+    }
+
+}
+
+
+

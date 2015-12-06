@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<!-- saved from url=(0097)https://storage.googleapis.com/supplemental_media/udacityu/2730818600/bootstrap-prestructure.html -->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <div class="container">
+
+        <!--Header rows for logo, name and navigation-->
+        <header>
+            <div class="row nav">
+                <div class="col-md-12">
+                    <ul class="menu">
+                        <li>
+                            <a href="index.html">Home
+                                  
+                            </a>
+
+                        </li>
+                        <li>
+                            <a href="#">Portfolio
+                               <span> 
+                                   <img src="images/chile.jpeg" alt="Chile" title="Andes in Chile"> 
+                               </span>          
+
+                            </a>
+
+                        </li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">More</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="title-logo col-md-6">
+                    <img class="img-responsive" src="images/logo.png" alt="Udacity logo">
+                </div>
+                <div class="col-md-6 text-right text-uppercase">
+                    <h1 class="title-super text-thin">Joey Laird</h1>
+                    <h3>My Portfolio</h3>
+                </div>
+            </div>
+        </header>
+
+
+        <!--Row for banner-->
+
+        <div class="row">
+            <div class="col-md-12">
+                <img class="img-responsive main-image" src="images/singapore.jpg" alt="Singapore">
+            </div>
+        </div>
+
+
+        <!--Row for featured work-->
+
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="text-muted">Featured Work</h2>
+            </div>
+        </div>
+
+        <div class="row text-center">
+            <div class="col-md-4">
+                <img class="img-modal img-responsive" src="images/thai-large.jpg" alt="Thailand" data-toggle="modal" data-target="#project1">
+                <h3>THAILAND</h3>
+                <p><a class="button" href="http://github.com/">Link to project</a>
+                </p>
+            </div>
+
+            <div class="col-md-4">
+                <img class="img-modal img-responsive" src="images/dubai-large.jpg" srcset="images/dubai-small.jpg 1000w, images/dubai-large.jpg 2000w" alt="Dubai" data-toggle="modal" data-target="#project2">
+                <h3>DUBAI</h3>
+                <p><a class="button" href="http://github.com/">Link to project</a>
+                </p>
+            </div>
+
+            <div class="col-md-4">
+                <img class="img-modal img-responsive" src="images/malaysia.jpg" alt="Malaysia" data-toggle="modal" data-target="#project3">
+                <h3>MALAYSIA</h3>
+                <p><a class="button" href="http://github.com/">Link to project</a>
+                </p>
+            </div>
+        </div>
+
+
+    </div>
+   
+
+        <!-- Modal for each image in featured work -->
+
+
+
+        <!-- Modal project 1 -->
+
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="modalthailand">Tigers in Thailand</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/thai.jpg" alt="Thailand"> This is my wife and I playing with a Tiger in Thailand. Thankfully we didn't appear to be of any concern to the tigers and got a few pics with them.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- Modal project 2 -->
+
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="modaldubai">Trip to Dubai</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/dubai.jpg" alt="Dubai"> This is my my wife and I visiting her sister in Dubai in front of the Burj Khalifa. The building behind us is the tallest building in the world. It was originally called the Burj Dubai but the bonds issued to fund it nearly went into default before being bailed out by the government of Abu Dhabi. It was then renamed to Burj Khalifa after the ruler of Abu Dhabi and president of the United Arab Emirates, Khalifa bin Zayed Al Nahyan.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- Modal project 3 -->
+
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="modalmalaysia">Mountain top in Malaysia</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/malaysia.jpg" alt="Malaysia"> This is a picture of my wife and I at the top of the mountain in Malaysia. We spent one day in Kuala Lumpur and then went to the coastal town of Langkawi.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+        <!-- Footer-->
+
+    <div class="footer">
+        <ul>
+            <li class="twitter"><a href="#"><i class="fa fa-twitter fa-2x"></i></a></li>
+            <li class="google"><a href="#"><i class="fa fa-google-plus fa-2x"></i></a></li>
+            <li class="facebook"><a href="#"><i class="fa fa-facebook fa-2x"></i></a></li>
+        </ul>
+        <p class="copyright">Copyright 2016 Joey Laird</p>
+    </div>
+
+    <!---Js files-->
+
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
